@@ -13,7 +13,7 @@ if [ "${PV}" == "9999" ]; then
     KEYWORDS=""
 else
     SRC_URI="https://raw.github.com/alexdux/async-emerge/master/distfiles/${P}.tar.bz2"
-    KEYWORDS="amd64 x86"
+    KEYWORDS="amd64 x86 ~arm ~arm64"
 fi
 
 HOMEPAGE="https://github.com/alexdux/async-emerge"
